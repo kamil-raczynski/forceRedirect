@@ -1,0 +1,25 @@
+{
+  "name": "forceredirect",
+  "version": "0.1.0",
+  "description": "Refactor of the ForceRedirect module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/index.js",
+    "start:dev": "ndb nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliAbdaa/forceRedirect.git"
+  },
+  "author": "Kamil Raczyński",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AliAbdaa/forceRedirect/issues"
+  },
+  "homepage": "https://github.com/AliAbdaa/forceRedirect#readme",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "ndb": "^1.0.41"
+  }
+}
